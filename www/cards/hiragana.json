@@ -1,0 +1,278 @@
+[
+	{
+		"id" : 1,
+		"name" : "a",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 2,
+		"name" : "i",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 3,
+		"name" : "u",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 4,
+		"name" : "e",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 5,
+		"name" : "o",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 6,
+		"name" : "ka",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 7,
+		"name" : "ki",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 8,
+		"name" : "ku",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 9,
+		"name" : "ke",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 10,
+		"name" : "ko",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 11,
+		"name" : "sa",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 12,
+		"name" : "shi",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 13,
+		"name" : "su",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 14,
+		"name" : "se",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 15,
+		"name" : "so",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 16,
+		"name" : "ta",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 17,
+		"name" : "chi",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 18,
+		"name" : "tsu",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 19,
+		"name" : "te",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 20,
+		"name" : "to",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 21,
+		"name" : "na",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 22,
+		"name" : "ni",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 23,
+		"name" : "nu",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 24,
+		"name" : "ne",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 25,
+		"name" : "no",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 26,
+		"name" : "ha",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 27,
+		"name" : "hi",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 28,
+		"name" : "fu",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 29,
+		"name" : "he",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 30,
+		"name" : "ho",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 31,
+		"name" : "ma",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 32,
+		"name" : "mi",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 33,
+		"name" : "mu",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 34,
+		"name" : "me",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 35,
+		"name" : "mo",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 36,
+		"name" : "ya",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 37,
+		"name" : "yu",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 38,
+		"name" : "yo",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 39,
+		"name" : "ra",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 40,
+		"name" : "ri",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 41,
+		"name" : "ru",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 42,
+		"name" : "re",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 43,
+		"name" : "ro",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 44,
+		"name" : "wa",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 45,
+		"name" : "wo",
+		"img" : "",
+		"display" : true
+	},
+	{
+		"id" : 46,
+		"name" : "n",
+		"img" : "",
+		"display" : true
+	}
+]
