@@ -1,14 +1,14 @@
-<ion-view title="Hiragana">
-  <ion-content class="has-header padding card-bg">
-    <h2 class="guess-card">{{guessCard}}</h2>
-    <div class="timer">
-    	<span>{{timer}}</span>
-    	<button class="button button-light" ng-click="startTimer()">Start</button>
-    	<button class="button button-light" ng-click="stopTimer()">Stop</button>
-    </div>
+<ion-view hide-nav-bar="true">
+  <ion-content class="padding board-bg">
+  	<div class="bar bar-header bar-assertive">
+  		<button class="button button-light" ng-click="startTimer()">Start</button>
+  		<div class="guess-card">{{guessCard}}</div>
+	  	<h1 class="title">Hiragana</h1>
+	  	<div class="timer"><span>{{timer}}</span></div>
+	</div>
     
-	<div class="container-fluid">
-	    <div ng-repeat="card in cards" ng-hide="!card.display" ng-click="pickCard(card)" class="cards">
+	<div class="container-fluid board">
+	    <div ng-repeat="card in cards" ng-show="card.display" ng-click="pickCard(card)" class="cards">
 	      <img ng-src="img/hiragana/{{card.name}}.png">
 	    </div>
 	</div>

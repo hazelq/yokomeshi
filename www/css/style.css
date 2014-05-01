@@ -1,53 +1,57 @@
-/* Empty. Add your own CSS if you like */
-.card-bg{
+.board-bg {
 	background-image: url("../img/wood-background.png");
 }
 
+.board {
+	margin-top: 10px;
+}
+
 .guess-card {
-  	width: 100px;
-  	margin: 5px auto;
-  	text-align: center;
   	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  	color: #444;
+  	font-weight: bold;
+  	color: #fff;
+  	margin-left: 30px;
+  	line-height: 30px;
 }
 
 .timer {
-	text-align: center;
-	margin: 5px auto;
-	width: 200px;
-	border: 1px solid #b2b2b2;
-	padding: 10px;
-	background-color: #FFF;
+	position:absolute;
+	right:10px;
 }
 
 .timer span{
 	margin-right: 10px;
 	font-size: 16px;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color: #444;
-	line-height: 50px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 30px;
 }
 
 .cards {
-	height: 80px;
-	width: 50px;
-	/*border: 1px solid #b2b2b2;*/
+	height: 110px;
+	width: 80px;
 	float: left;
-	margin: 5px;
+	margin: 10px;
 	background-color: #FFF;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	border-radius: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
 	-moz-box-shadow: 2px 2px 5px #333;
 	-webkit-box-shadow: 2px 2px 5px #333;
 	box-shadow: 2px 2px 5px #333;
 }
 
 .cards img {
-	height: 50px;
-	width: 50px;
+	height: 70%;
+	width: 90%;
 	margin-top: 15px;
+}
+
+/*OVERWRITING IONIC CLASSES*/
+.bar {
+	position: relative !important;
 }
 
 .ng-hide {
