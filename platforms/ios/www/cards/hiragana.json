@@ -2,277 +2,277 @@
 	{
 		"id" : 1,
 		"name" : "a",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 2,
 		"name" : "i",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 3,
 		"name" : "u",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 4,
 		"name" : "e",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 5,
 		"name" : "o",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 6,
 		"name" : "ka",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 7,
 		"name" : "ki",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 8,
 		"name" : "ku",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 9,
 		"name" : "ke",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 10,
 		"name" : "ko",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 11,
 		"name" : "sa",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 12,
 		"name" : "shi",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 13,
 		"name" : "su",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 14,
 		"name" : "se",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 15,
 		"name" : "so",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 16,
 		"name" : "ta",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 17,
 		"name" : "chi",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 18,
 		"name" : "tsu",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 19,
 		"name" : "te",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 20,
 		"name" : "to",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 21,
 		"name" : "na",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 22,
 		"name" : "ni",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 23,
 		"name" : "nu",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 24,
 		"name" : "ne",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 25,
 		"name" : "no",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 26,
 		"name" : "ha",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 27,
 		"name" : "hi",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 28,
 		"name" : "fu",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 29,
 		"name" : "he",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 30,
 		"name" : "ho",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 31,
 		"name" : "ma",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 32,
 		"name" : "mi",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 33,
 		"name" : "mu",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 34,
 		"name" : "me",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 35,
 		"name" : "mo",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 36,
 		"name" : "ya",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 37,
 		"name" : "yu",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 38,
 		"name" : "yo",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 39,
 		"name" : "ra",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 40,
 		"name" : "ri",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 41,
 		"name" : "ru",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 42,
 		"name" : "re",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 43,
 		"name" : "ro",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 44,
 		"name" : "wa",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 45,
 		"name" : "wo",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	},
 	{
 		"id" : 46,
 		"name" : "n",
-		"img" : "",
-		"display" : true
+		"played" : false,
+		"flipped" : false
 	}
 ]

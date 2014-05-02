@@ -7,7 +7,6 @@ angular.module('starter.controllers', [])
 		$scope.cards = data;
 	
 		$scope.cards = shuffleCards($scope.cards);
-		$scope.guessCard = randomCard($scope.cards);
 		counter = $scope.cards.length;
 		$scope.timer = "00:00";
 	});
@@ -15,6 +14,8 @@ angular.module('starter.controllers', [])
 	$scope.startTimer = function() {
 		startTime = new Date();
 		clocktimer = $interval(updateTimer, 1000);
+		$scope.guessCard = randomCard($scope.cards);
+		$scope.flipCards();
 	}
 
 	function updateTimer(){
@@ -26,10 +27,24 @@ angular.module('starter.controllers', [])
 		$interval.cancel(clocktimer);
 	}
 
+	$scope.flipCards = function () {
+		for(var i = 0; i < $scope.cards.length; i++){
+			//console.log("before flipped? "+$scope.cards[i].flipped);
+			$scope.cards[i].flipped = true;
+			//console.log("flipped? "+$scope.cards[i].flipped);
+		}
+	}
+
+	$scope.isFlipped = function(flipped){
+		console.log("flipped? "+flipped);
+		return flipped ? "hover_effect" : "";
+		//return flipped ? "test" : "";
+	}
+
 	$scope.pickCard = function(card) {
+		console.log("flipped? "+card.flipped)
 		if ($scope.guessCard == card.name) {
-			console.log("after:"+$scope.timer);
-			card.display = false;
+			card.played = true;
 			counter -= 1;
 			if(counter > 1){
 				$scope.guessCard = randomCard($scope.cards);
@@ -50,7 +65,7 @@ angular.module('starter.controllers', [])
 		var picked = false, cardIndex, cardName;
 		while (picked == false){
 			cardIndex = Math.floor(Math.random()*cards.length);
-			if(cards[cardIndex].display){
+			if(!cards[cardIndex].played){
 				cardName = cards[cardIndex].name;
 				picked = true;
 			}
@@ -62,17 +77,17 @@ angular.module('starter.controllers', [])
 	function shuffleCards(cards){
 		var currentIndex = cards.length, 
 			temp, randomIndex;
-		//debugger;
+
 	  	while (0 !== currentIndex) {
 
-		  	if(!cards[currentIndex-1].display){
+		  	if(cards[currentIndex-1].played){
 		  		currentIndex -= 1;
 		  		continue;
 		  	}
 
 		    do{
 				randomIndex = Math.floor(Math.random() * currentIndex);
-				if(cards[randomIndex].display)
+				if(!cards[randomIndex].played)
 					break;
 		    } while(true)
 

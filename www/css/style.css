@@ -2,10 +2,6 @@
 	background-image: url("../img/wood-background.png");
 }
 
-.board {
-	margin-top: 10px;
-}
-
 .guess-card {
   	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   	font-weight: bold;
@@ -28,12 +24,21 @@
 	line-height: 30px;
 }
 
-.cards {
+#card-container {
+	float: left;
 	height: 110px;
 	width: 80px;
-	float: left;
 	margin: 10px;
-	background-color: #FFF;
+	z-index: 1;
+	-webkit-perspective: 1000px;
+ 	-moz-perspective: 1000px;
+  	-o-perspective: 1000px;
+  	perspective: 1000px;
+}
+
+.cards {
+	width: 100%;
+	height: 100%;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
@@ -41,9 +46,66 @@
 	-moz-box-shadow: 2px 2px 5px #333;
 	-webkit-box-shadow: 2px 2px 5px #333;
 	box-shadow: 2px 2px 5px #333;
+	-webkit-transform-style: preserve-3d;
+  	-webkit-transition: all 1.0s linear;
+  	-moz-transform-style: preserve-3d;
+  	-moz-transition: all 1.0s linear;
+  	-counter-reseto-transform-style: preserve-3d;
+  	-o-transition: all 1.0s linear;
+  	transform-style: preserve-3d;
+  	transition: all 1.0s linear;
 }
 
-.cards img {
+#card-container.hover_effect .cards {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+
+  -webkit-box-shadow: -5px 5px 5px #333;
+  -moz-box-shadow: -5px 5px 5px #333;
+  box-shadow: -5px 5px 5px #333;
+}
+
+.face {
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.face img {
+	height: 110px;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.face.front {
+	display: block;
+	background-color: #FFF;
+	height: 100%;
+	width: 100%;
+	-webkit-transform: rotateY(180deg);
+	-webkit-box-sizing: border-box;
+	-moz-transform: rotateY(180deg);
+	-moz-box-sizing: border-box;
+	-o-transform: rotateY(180deg);
+	-o-box-sizing: border-box;
+	transform: rotateY(180deg);
+	box-sizing: border-box;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.face.front img {
 	height: 70%;
 	width: 90%;
 	margin-top: 15px;
@@ -52,6 +114,10 @@
 /*OVERWRITING IONIC CLASSES*/
 .bar {
 	position: relative !important;
+}
+
+.bar.bar-assertive {
+	background-color: #bb141a !important;
 }
 
 .ng-hide {
